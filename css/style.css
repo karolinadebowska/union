@@ -1,0 +1,164 @@
+body{font-family:'Inconsolata',monospace;
+    background-color:rgb(240,237,202);
+    min-width:320px;
+    max-width: 1400px;
+    margin:0;}
+
+
+h1,h2,h3 {font-family: 'Space Mono',monospace;}
+#except {padding:0,0,20px,0;};
+#architect {margin-top:0;}
+h2{font-size:8vw;
+    margin-left:5%;}
+img{width:100%;}
+nav {display: none;}
+a {text-decoration: none;
+    color:black;
+    padding: 10px;
+    }
+figcaption {display:block;
+    position: relative; z-index: 1;}
+footer{background-color: rgb(136,0,27);
+    text-align: center;
+    color:white;
+    padding:30px 2% 30px 2%;
+     box-sizing: border-box;
+    font-size: 4vw;}
+footer a{color:white;}
+#slogan{text-align: center;
+        font-size: 12vw;
+    margin-bottom: 5px;}
+.title{font-size:5.5vw;
+    text-align: center;
+        margin:0;}
+.s {margin-top:20px;
+    font-size:4.5vw;}
+/*~blog~*/
+.button {border:2px solid black;
+        padding:3px 10px;
+        font-size:1em;}
+.blog{margin-left:60%;
+margin-bottom: 70px;}
+/*~end of blog~*/
+a:hover{background-color:white;}
+#error{display: block;
+    margin:auto;
+    padding-top:20px;
+    width:10%;}
+ .a {text-align: center;
+}
+/*~~~~~~~~~workspaces~~~~~~~~~*/ 
+#theme{text-align: right;
+    margin-right:3%;
+    font-size: 7vw;
+    border-bottom: 2px solid orange;
+    margin-left:20%;}
+.desktop{display: none;}
+.mobile{padding:0 5% 0 5%;
+        max-width: 550px;
+     box-sizing: border-box;
+    margin: auto;}
+.description {padding:0 4%;
+     box-sizing: border-box;
+font-size: 6vw;
+line-height: 1.2em;}
+.description h3 {font-size:6.5vw;}
+.parent error{display: flex;}
+header .parent img{width:4em;
+margin-top:2em;}
+/*~~~~~~~~end of workspaces~~~~~~~~~*/ 
+/*~~~~support services~~~~*/
+.photo {
+        padding:0 10%;}
+/*~~~~end of support services~~~~*/
+
+
+@media screen and (min-width: 600px){
+    #error {display: none;
+    justify-content: center;}
+    nav{display: inline;
+    }
+    nav ul{
+        
+        padding:0,2%;
+         box-sizing: border-box;
+        margin:20px 2% 0 2%;
+        display:flex;
+        list-style:none;
+        }
+    nav ul li{
+        text-align: center;
+        font-family: 'Space Mono',monospace;
+       flex:1;
+        font-size:2vw;}
+    .title {font-size:3vw;}
+    .s {margin-top:40px;
+        font-size: 2vw;
+    margin-bottom: 20px;}
+    #slogan{text-align: center;
+        font-size: 10vw;
+        margin-bottom: 10px;}
+    h2{font-size:3vw;}
+    .architecture {width:50vw;
+    order:2;
+    position: absolute;
+    right:0;
+    }
+   
+    .inside{width:50vw;
+    position: absolute;
+    
+    
+    padding: 0 2%;
+     box-sizing: border-box;
+    }
+    header {}
+    .parent{
+    display: flex;
+    flex-direction: row;}
+    .a {padding: 0 3%;
+         box-sizing: border-box;
+        position: relative;
+    top:50vh;
+    border-bottom:10px orange inset;}
+   
+    footer{font-size: 1.5vw;
+    }
+/*~~~~~~~~~workspaces~~~~~~~~~*/ 
+    .mobile {display: none;}
+    .desktop {display: block;
+         margin:5% 3% 5em 3%;
+        }
+header .parent img{display: none;}
+    header .parent{
+        position:relative;
+    margin-left:50%;}
+    #theme{padding:1em 0 0.5em 0;
+        font-size:5vw;}
+    .description{font-size:1.2em;
+    flex:2;}
+/*~~~~~~~~end of workspaces~~~~~~~~~*/ 
+/*blog*/
+    .button {border:2px solid black;
+        padding:5px 10px;}
+.blog{margin-left:80%;}
+/*blog*/
+/*support services*/
+    .photo{flex:1;}
+    .photo img{display: block;
+        position:relative;
+    top:20%;}
+    .swap{order:2;
+        padding-top:40px;}
+    .description h3{font-size:4vw;
+    line-height: 1em;}
+    .ws {min-height: 400px;}
+    .right{text-align: right;}
+/*end of support services*/
+}
+
+}
+
+/*~~~~~~~~~a contact form ~~~~~~~~~*/
+/*~~~~adapted code from https://www.w3schools.com/howto/howto_css_contact_form.asp
+~~~~*/
